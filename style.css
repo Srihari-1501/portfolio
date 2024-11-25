@@ -1,0 +1,194 @@
+*{
+    background-color: #AED9E0;
+    top: 10px;
+    padding: 0%;
+    font-family: "Margarine", sans-serif;
+}
+
+/* .margarine-regular {
+    top: 10px;
+    font-family: "Margarine", sans-serif;
+    font-size: calc(1px + 25vw);
+    background-color: black;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFA69E;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+
+} */
+.bg {
+  background-color: #AED9E0 !important;
+}
+
+.quote{
+  width: 60% !important;
+}
+.quote h1{
+  margin: 0% !important;
+}
+
+.margarine-regular {
+  top: 10px;
+  font-family: "Margarine", sans-serif;
+  font-size: calc(1px + 6vw);
+  background-color: black;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFA69E;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+
+}
+
+
+.about{
+  position: relative;
+}
+
+
+.name{
+  position: relative;
+}
+.man{
+  position: absolute;
+  background-color: transparent;
+  top: 10%;
+  left: 3%;
+  
+}
+
+.man2{
+  position: absolute;
+  background-color: transparent;
+  top: 10%;
+  left: 53%;
+  
+}
+
+.navbar{
+    padding: 0px 0px !important;
+    font-size: large;
+}
+
+.insideCard{
+  background-color: #9CD1D9 !important;
+}
+
+.exp-border{
+  border: 0.1px solid black;
+}
+
+.exp{
+  position: relative;
+}
+
+.task-img{
+  position: absolute ;
+  background-color: transparent;
+  top: 50%;
+  right: 36%;
+}
+
+.project{
+  position: relative;
+}
+
+.lan-img{
+  position: absolute ;
+  background-color: transparent;
+  top: -42%;
+  right: 65%;
+}
+  
+.dis-img{
+  position: absolute ;
+  background-color: transparent;
+  top: -65%;
+  right: 8%;
+}
+.btn-color{
+  background-color: black !important;
+  color: #AED9E0 !important;
+}
+
+
+@media (max-width : 992px){
+  .dis-img{
+    display: none;
+  }
+  .lan-img{
+    display: none;
+  }
+  .margarine-regular {
+    top: 10px;
+    font-family: "Margarine", sans-serif;
+    font-size: calc(1px + 6vw);
+    background-color: black;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFA69E;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+  
+  }
+  .man{
+    position: absolute;
+    background-color: transparent;
+    top: 10%;
+    left: 2%;
+    
+    
+  }
+  
+  .man2{
+    position: absolute;
+    background-color: transparent;
+    top: 10%;
+    left: 55%;
+    
+  }
+
+}
+
+
+@media (min-width : 993px) and (max-width : 1199px){
+  .man{
+    position: absolute;
+    background-color: transparent;
+    top: 10%;
+    
+  }
+  
+  .man2{
+    position: absolute;
+    background-color: transparent;
+    top: 10%;
+    left: 55%;
+    
+  }
+  .lan-img{
+    top: -41%;
+  }
+}
+
+
+/* @media (max-width :629px){
+  .man{
+    position: absolute;
+    background-color: transparent;
+    top: 30%;
+    
+  }
+  
+  .man2{
+    position: absolute;
+    background-color: transparent;
+    top: 30%;
+    left: 60%;
+    
+  }
+} */
