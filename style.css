@@ -5,21 +5,9 @@
     font-family: "Margarine", sans-serif;
 }
 
-/* .margarine-regular {
-    top: 10px;
-    font-family: "Margarine", sans-serif;
-    font-size: calc(1px + 25vw);
-    background-color: black;
-    font-weight: 400;
-    font-style: normal;
-    color: #FFA69E;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-
-} */
 .bg {
   background-color: #AED9E0 !important;
+
 }
 
 .quote{
@@ -122,6 +110,10 @@
   .lan-img{
     display: none;
   }
+
+  .me{
+    width: 310px;
+  }
   .margarine-regular {
     top: 10px;
     font-family: "Margarine", sans-serif;
@@ -135,11 +127,17 @@
     align-items: center;
   
   }
+
+  .name{
+    font-size: 35px;
+  }
+
   .man{
-    position: absolute;
+    /* position: absolute;
     background-color: transparent;
     top: 10%;
-    left: 2%;
+    left: 2%; */
+    display: none;
     
     
   }
@@ -147,8 +145,9 @@
   .man2{
     position: absolute;
     background-color: transparent;
-    top: 10%;
-    left: 55%;
+    top: 15%;
+    right: 50%;
+    display: none;
     
   }
 
@@ -175,20 +174,3 @@
   }
 }
 
-
-/* @media (max-width :629px){
-  .man{
-    position: absolute;
-    background-color: transparent;
-    top: 30%;
-    
-  }
-  
-  .man2{
-    position: absolute;
-    background-color: transparent;
-    top: 30%;
-    left: 60%;
-    
-  }
-} */
